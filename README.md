@@ -21,9 +21,9 @@ The first Deep Learning Neural Network model I used had 2 hidden layers, contain
 * The output layer contained 1 neuron
 * I used Relu activation functions for the hidden layers and Sigmoid activation for the output layer
 * The original attempt achieved 72.6% accuracy with about 55% loss.
-* In my first optimization attempt I used 3 hidden layers with 80, 50, and 20 neurons respectively, achieving 72.4% accuracy and 56% loss
+* In my first optimization attempt I used 3 hidden layers with 80, 50, and 20 neurons respectively, achieving 72.6% accuracy and 56% loss
 * In my second optimization attempt I used 3 hidden layers with 150, 100, and 50 neurons respectively, achieving 72.5% accuracy and 57% loss
-* In my third optimization attempt I used 3 hidden layers again, with 150, 100, and 50 neurons. I increased the epochs to 100 and used tanh as the output activation function resulting in 72.4% accuracy and 68% loss
+* In my third optimization attempt I used 3 hidden layers again, with 200, 150, and 100 neurons, achieving 72.5% accuracy and 57% loss
 
 ## Summary
 Based on the optimization attempts, which decreased in overall accuracy and increase in loss, I can conclude that adding layers and neurons do not increase the effectiveness of the model with this dataset. In order to increase model performance above 75% I would recommend removing additional "noisy" features to result in optimization.
